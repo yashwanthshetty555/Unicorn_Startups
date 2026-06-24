@@ -237,32 +237,3 @@ border-radius:20px;
         transform:translateY(0);
     }
 }
-.reveal-card{
-    opacity:0;
-    transform:translateY(30px);
-    transition:all 0.7s ease;
-}
-
-.reveal-card.show{
-    opacity:1;
-    transform:translateY(0);
-}
-.score-card{
-    animation:pulse 1s infinite;
-}
-
-@keyframes pulse{
-
-    0%{
-        transform:scale(1);
-    }
-
-    50%{
-        transform:scale(1.05);
-    }
-
-    100%{
-        transform:scale(1);
-    }
-
-}
