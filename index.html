@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicorn Startups</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🦄 Unicorn Startups</h1>
+
+        <p>
+            Transform your startup idea into a complete business blueprint using AI.
+        </p>
+
+        <div class="form-box">
+
+            <input
+                type="text"
+                id="industry"
+                placeholder="Industry (Education, Health, AI...)"
+            >
+
+            <input
+                type="text"
+                id="skills"
+                placeholder="Your Skills"
+            >
+
+            <input
+                type="text"
+                id="budget"
+                placeholder="Budget"
+            >
+
+            <input
+                type="text"
+                id="interest"
+                placeholder="Interests"
+            >
+
+            <button onclick="generateStartup()">
+                Generate Startup
+            </button>
+
+        </div>
+
+        <div id="output" class="cards-container"></div>
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
