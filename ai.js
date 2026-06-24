@@ -1,4 +1,4 @@
-const API_KEY = "AQ.Ab8RN6KBclQIW33_rR_8OqlwMF-oKiWuYNUMce9lObf_7EzjlA";
+const API_KEY = "AQ.Ab8RN6JYrZHhkv2HPS10zDqdwi6n4zilRM-Ds0v4er0HaJlaiw";
 
 export async function generateStartupIdea(userData) {
 
